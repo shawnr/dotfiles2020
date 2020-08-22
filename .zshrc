@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.functions
 source ~/.aliases 
+source ~/.extra

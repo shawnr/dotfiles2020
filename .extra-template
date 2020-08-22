@@ -2,6 +2,9 @@
 # This file will be sourced to provide info that should not be stored in the 
 # Git repository.
 
+# The `~/.extra` file will never be overwritten by any updates in the repo, so
+# you can put small tweaks here that you don't wish to store in the repo.
+
 # Git credentials
 GIT_AUTHOR_NAME="Your Name"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"

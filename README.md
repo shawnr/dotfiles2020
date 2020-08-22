@@ -43,7 +43,23 @@ Fork this repository and customize the files to your liking. When you have modif
 
 All of the installation commands are idempotent so they can be run again to update with no issues.
 
+Note: The `~/.extra` file will be sourced at runtime, but will never be overwritten by updates.
 
+## Troubleshooting
+
+If you receive an error when using SSH after running the installation scripts about "Bad Configuration," it can be fixed. The error includes:
+
+```Bad configuration option: usekeychain```
+
+And the fix is to add the `IgnoreUnknown` command above the reference to the keychain in your .ssh file:
+
+```
+Host *
+AddKeysToAgent yes
+IgnoreUnknown UseKeychain
+UseKeychain yes
+IdentityFile ~/.ssh/id_rsa
+```
 
 ## Due Credit
 
