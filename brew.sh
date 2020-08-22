@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Install command-line tools using Homebrew.
 
@@ -23,8 +23,8 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget`
+brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
@@ -65,14 +65,16 @@ brew install vbindiff
 brew install zopfli
 
 # Install useful dev tools
+brew cask install iterm2 # Preferred terminal
+brew cask install postman
 brew install pyenv
 
 # More custom apps
-brew cask install iterm2 # Preferred terminal
+
 brew cask install cheatsheet # Keyboard shortcut hints for all apps
 brew cask install caffeine
-brew cask install betterzip
-brew cask install postman
+
+
 brew cask install qlcolorcode qlmarkdown qlprettypatch qlstephen quicklook-csv quicklook-json webpquicklook
 brew cask install suspicious-package
 

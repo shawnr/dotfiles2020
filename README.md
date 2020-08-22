@@ -39,6 +39,12 @@ Some useful MacOS defaults have been added to `macos.sh`. Run it to install thos
 
 Fork this repository and customize the files to your liking. When you have modified the files in the repository, or updated from upstream changes, you can re-run the `update-files.sh` script to re-copy the files. Be aware, this will overwrite any changes you have made directly to files in your `$HOME` directory.
 
+## Updating
+
+All of the installation commands are idempotent so they can be run again to update with no issues.
+
+
+
 ## Due Credit
 
 This repository is based largely off the [dotfiles](https://github.com/mathiasbynens/dotfiles) repository created by Mathias Bynens. 
