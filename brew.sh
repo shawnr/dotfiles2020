@@ -29,6 +29,9 @@ brew install wget --with-iri
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
+# Install zsh
+brew install zsh
+
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install grep
@@ -42,23 +45,36 @@ brew install woff2
 
 # Install other useful binaries.
 brew install ack
+brew install fzf
 brew install git
 brew install git-lfs
+brew install highlight
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
 brew install p7zip
 brew install pigz
 brew install pv
+brew install readline
 brew install rename
 brew install rlwrap
 brew install ssh-copy-id
+brew install sqlite
 brew install tree
 brew install vbindiff
 brew install zopfli
 
 # Install useful dev tools
 brew install pyenv
+
+# More custom apps
+brew cask install iterm2 # Preferred terminal
+brew cask install cheatsheet # Keyboard shortcut hints for all apps
+brew cask install caffeine
+brew cask install betterzip
+brew cask install postman
+brew cask install qlcolorcode qlmarkdown qlprettypatch qlstephen quicklook-csv quicklook-json webpquicklook
+brew cask install suspicious-package
 
 # Remove outdated versions from the cellar.
 brew cleanup

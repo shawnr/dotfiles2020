@@ -1,5 +1,43 @@
 # Dotfiles 2020
+This is a MacOS dotfiles repo updated for using ZSH and with an attempt to remove clutter from my system that I don't actually use as much.
 
+![Example screen shot.](screen.png?raw=true)
+
+## Setup
+
+### Install Homebrew-managed dependencies and tools
+
+To install the dotfiles you will need to have [Homebrew](https://brew.sh/) available. Install Homebrew using one of the methods described on the project site and continue with these directions.
+
+Once you have installed Homebrew, run the `brew.sh` script.
+
+```./brew.sh```
+
+### Set Up ZSH
+
+This setup uses Oh-My-Zsh. Install it with the following command:
+
+```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+
+Once that has installed, *restart your terminal* and then install the PowerLevel 10k Theme for Oh-My-Zsh:
+
+```git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k```
+
+When those files have been downloaded, run the `update-files.sh` script:
+
+```./update-files.sh```
+
+Note: If you wish to customize the theme for the PS1 prompt, PowerLevel 10K offers many options. You can run `p10k configure` or delete the `$HOME/.p10k.zsh` file to re-do the theme configuration and experiment with alternative settings. Be sure to save your final preferred configuration by copying the `.p10k.zsh` file into this repo after you have made changes.
+
+### Optional: Set Up Mac Defaults
+
+Some useful MacOS defaults have been added to `macos.sh`. Run it to install those settings:
+
+```./macos.sh```
+
+## Customizing the Dotfiles
+
+Fork this repository and customize the files to your liking. When you have modified the files in the repository, or updated from upstream changes, you can re-run the `update-files.sh` script to re-copy the files. Be aware, this will overwrite any changes you have made directly to files in your `$HOME` directory.
 
 ## Due Credit
 
