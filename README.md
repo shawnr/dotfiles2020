@@ -27,7 +27,7 @@ When those files have been downloaded, run the `update-files.sh` script:
 
 ```./update-files.sh```
 
-Note: If you wish to customize the theme for the PS1 prompt, PowerLevel 10K offers many options. You can run `p10k configure` or delete the `$HOME/.p10k.zsh` file to re-do the theme configuration and experiment with alternative settings. Be sure to save your final preferred configuration by copying the `.p10k.zsh` file into this repo after you have made changes.
+Note: If you wish to customize the theme for the PS1 prompt, PowerLevel 10K offers many options. You can run `p10k configure` or delete the `$HOME/.p10k.zsh` file to re-do the theme configuration and experiment with alternative settings. Be sure to save your final preferred configuration by copying the `.p10k.zsh` file into this repo after you have made changes. Be sure to install the [PowerLevel 10k fonts](https://github.com/romkatv/powerlevel10k#fonts), too.
 
 ### Optional: Set Up Mac Defaults
 
