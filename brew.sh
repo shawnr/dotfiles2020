@@ -65,18 +65,18 @@ brew install vbindiff
 brew install zopfli
 
 # Install useful dev tools
-brew cask install iterm2 # Preferred terminal
-brew cask install postman
+brew install --cask iterm2 # Preferred terminal
+brew install --cask postman
 brew install pyenv
 
 # More custom apps
 
-brew cask install cheatsheet # Keyboard shortcut hints for all apps
-brew cask install caffeine
+brew install --cask cheatsheet # Keyboard shortcut hints for all apps
+brew install --cask caffeine
 
 
-brew cask install qlcolorcode qlmarkdown qlprettypatch qlstephen quicklook-csv quicklook-json webpquicklook
-brew cask install suspicious-package
+brew install --cask qlcolorcode qlmarkdown qlprettypatch qlstephen quicklook-csv quicklook-json webpquicklook
+brew install --cask suspicious-package
 
 # Remove outdated versions from the cellar.
 brew cleanup
